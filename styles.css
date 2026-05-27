@@ -387,24 +387,53 @@ strong {
 
 @media (max-width: 768px) {
     body {
-        padding-top: 50px;
+        padding-top: 70px; /* Aumentato leggermente per dare respiro al menu verticale */
+    }
+
+    /* Rimuove i margini/padding nativi del tag nav */
+    nav {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    /* Forza la centratura della lista della navbar */
+    .ul-navbar {
+        display: flex;
+        flex-direction: column; /* Dispone le voci in verticale come nella tua foto */
+        align-items: center;    /* Centra perfettamente gli elementi */
+        justify-content: center;
+        padding: 10px 0 !important; /* Elimina il padding laterale nativo che decentra il testo */
+        margin: 0 auto !important;
+        gap: 10px;              /* Gestisce lo spazio verticale tra i link */
     }
 
     .li-navbar {
         width: 100%;
         text-align: center;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
     .li-navbar-hideable {
         display: none;
     }
 
-    .ul-navbar {
-        gap: 10px;
-        margin-left: 0px;
+    .ul-navbar a {
+        font-size: 0.8rem; /* Leggermente più grande per facilitare il clic su mobile */
+        display: block;
+        width: 100%;
     }
 
-    .ul-navbar a {
+    /* Forza la centratura del footer */
+    .ul-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 !important; /* Elimina il padding laterale nativo */
+        margin: 0 auto !important;
+        gap: 10px;
         font-size: 0.7rem;
     }
 
@@ -412,14 +441,11 @@ strong {
         width: 100%;
         text-align: center;
         font-size: 0.7rem;
-}
+        margin: 0 !important;
+        padding: 0 !important;
+    }
 
     .li-footer-hideable {
         display: none;
-    }
-
-    .ul-footer {
-        gap: 10px;
-        margin-left: 0px;
     }
 }
