@@ -4,12 +4,6 @@ body {
     background-color: rgb(244,242,237);
 }
 
-@media (max-width: 768px) {
-    body {
-        padding-top: 50px;
-    }
-}
-
 .h1-top-section {
     color: red;
     font-family: "Playfair Display", serif;
@@ -186,60 +180,17 @@ header {
     margin: 0;
 }
 
-/* footer {
-    color: rgb(128, 128, 128);
-    font-family: "DM Mono", monospace;
-    font-size: 0.8rem;
-    text-align: center;
-    background-color: rgb(244,242,237);
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 20px;
-    padding-right: 50px;
-    margin: 0;
-    display: flex;
-}
-
-@media (max-width: 768px) {
-   .footer-left {
-        width: 100%;
-    }
-
-    .footer-right {
-        width: 100%;
-    }
-} */
-
 .ul-footer {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 20px;
-/*     margin: 10px;
- */    
     margin-left:0px;
     font-size: 0.8rem;
     flex-wrap: wrap;
     color: rgb(128, 128, 128);
     font-family: "DM Mono", monospace;
     font-size: 0.8rem;
-}
-
-@media (max-width: 768px) {
-    .li-footer {
-        width: 100%;
-        text-align: center;
-        font-size: 0.7rem;
-}
-
-    .li-footer-hideable {
-        display: none;
-    }
-
-    .ul-footer {
-        gap: 10px;
-    }
-
 }
 
 nav {
@@ -256,8 +207,6 @@ nav {
     justify-content: center;
     list-style: none;
     gap: 20px;
-/*     margin: 10px;
- */    
     margin-left: 0px;
     font-size: 0.8rem;
     flex-wrap: wrap;
@@ -268,25 +217,6 @@ nav {
     color: rgb(128, 128, 128);
     font-family: "DM Mono", monospace;
     font-size: 0.8rem;
-}
-
-@media (max-width: 768px) {
-    .li-navbar {
-        width: 100%;
-        text-align: center;
-    }
-
-    .li-navbar-hideable {
-        display: none;
-    }
-
-    .ul-navbar {
-        gap: 10px;
-    }
-
-    .ul-navbar a {
-        font-size: 0.7rem;
-    }
 }
 
 form {
@@ -339,20 +269,6 @@ strong {
     color: rgb(255, 0, 0);
     font-weight:bold;
 }
-
-/* #button-section {
-    background-color: rgb(244,242,237);
-}
-
-#button-right {
-    width:25%;
-    height: 3em;
-    background-color: black;
-    font-family: "DM Mono", monospace;
-    color: white;
-    width: 25%;
-    padding-left: 50px;
-} */
 
 /*--carosello*/
 .carousel-bottom-section {
@@ -469,21 +385,41 @@ strong {
     font-size: 1rem;
 }
 
-/*@media (max-width: 768px) {
-
-    .h1-top-section,
-    .h2-top-section,
-    .p-top-section,
-    .ul-top-section,
-    .h1-middle-section,
-    #h2-middle-section,
-    .ul-middle-section,
-    .h1-bottom-section,
-    .p-bottom-section,
-    form {
-        padding-left: 20px;
-        padding-right: 20px;
+@media (max-width: 768px) {
+    body {
+        padding-top: 50px;
     }
+
+    .li-navbar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .li-navbar-hideable {
+        display: none;
+    }
+
+    .ul-navbar {
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    .ul-navbar a {
+        font-size: 0.7rem;
+    }
+
+    .li-footer {
+        width: 100%;
+        text-align: center;
+        font-size: 0.7rem;
 }
 
-*/
+    .li-footer-hideable {
+        display: none;
+    }
+
+    .ul-footer {
+        gap: 10px;
+        margin-left: 0px;
+    }
+}
