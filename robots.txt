@@ -1,0 +1,9 @@
+---
+---
+Sitemap: https://github.io
+
+User-agent: *
+Disallow: /grazie-per-averci-contattato.html
+Disallow: /_layouts/
+Disallow: /_includes/
+Allow: /

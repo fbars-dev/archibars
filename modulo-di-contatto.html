@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francesco Barsanti">
+    <meta name="description" content="Pagina contenente il modulo per contattare Francesco Barsanti, Architetto e Project Manager specializzato in ambito retail su piccole e medie superfici">
+    <title>Modulo di contatto | Arch. Francesco Barsanti</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="ul-navbar">
+            <li class="li-navbar"><a href="index.html#profilo">PROFILO</a></li>
+            <li class="li-navbar-hideable">|</li>
+            <li class="li-navbar"><a href="boutique-partenopea.html">PROGETTI E RICERCHE</a></li>
+            <li class="li-navbar-hideable">|</li>
+            <li class="li-navbar"><a href="modulo-di-contatto.html">CONTATTI</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1 class="h1-top-section">Modulo di contatto</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <!--nasconde indirizzo email-->
+            <input type="hidden" name="access_key" value="2e6577ab-7cce-448f-b2d2-7f24ecb74edc">
+            
+            <!--oggetto email-->
+            <input type="hidden" name="subject" value="Nuovo messaggio dal tuo sito">
+            
+            <!--pagina di ringraziamento-->
+            <input type="hidden" name="redirect" value="grazie-per-averci-contattato.html">
+
+            <!--honeypot (anti-bot)-->
+            <input type="checkbox" name="botcheck" style="display:none">
+
+            <label for="fname">Nome
+                <input type="text" id="fname" name="fname" required>
+            </label>
+            <label for="lname">Cognome
+                <input type="text" id="lname" name="lname">
+            </label>
+            <label for="phone">Telefono
+                <input type="tel" id="phone" name="phone">
+            </label>
+            <label for="email">Email
+                <input type="email" id="email" name="email" required>
+            </label>
+            <label for="reason">Per quale ragione ci stai contattando?
+                <textarea id="reason" name="reason" rows="3"></textarea>
+            </label>
+
+            <!--hCaptcha (anti-bot)-->
+            <div class="h-captcha" data-captcha="true"></div>
+
+            <input type="submit" value="INOLTRA">
+        </form>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+    </section>
+    <footer>
+        <ul  class="ul-footer">
+            <li class="li-footer">© ARCH. FRANCESCO BARSANTI</li>
+            <li class="li-footer-hideable">|</li>
+            <li class="li-footer">P. IVA 08680660720</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
