@@ -1,9 +1,7 @@
----
----
-Sitemap: https://github.io
-
 User-agent: *
-Disallow: /grazie-per-averci-contattato.html
+Disallow: /archibars/grazie-per-averci-contattato.html
 Disallow: /_layouts/
 Disallow: /_includes/
 Allow: /
+
+Sitemap: https://fbars-dev.github.io/archibars/sitemap.xml
