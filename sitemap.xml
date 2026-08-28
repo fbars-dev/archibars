@@ -1,67 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
 
-<url>
-  <loc>https://fbars-dev.github.io/archibars/</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/index.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/boutique-partenopea.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/modulo-di-contatto.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/curriculum.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/nuova-immagine-per-un-marchio-storico.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/gotico-salentino.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/stadio-alla-piccola-scala.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/una-libreria-algoritmica.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/rifunzionalizzazione-di-un-edificio-storico.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fbars-dev.github.io/archibars/terme-contemporanee.html</loc>
-  <lastmod>2026-05-27T05:17:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/boutique-partenopea.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
 
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/modulo-di-contatto.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/curriculum.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/nuova-immagine-per-un-marchio-storico.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/gotico-salentino.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/stadio-alla-piccola-scala.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/una-libreria-algoritmica.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/rifunzionalizzazione-di-un-edificio-storico.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://fbars-dev.github.io/archibars/terme-contemporanee.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
 
 </urlset>
